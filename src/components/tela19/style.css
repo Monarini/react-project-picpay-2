@@ -1,0 +1,10 @@
+.quatroColunas {
+  grid-template-columns: repeat(4, 0fr);
+  gap: 40px;
+}
+
+.titulosVerde {
+  font-family: picpay-black;
+  font-size: 50px;
+  color: #223324;
+}

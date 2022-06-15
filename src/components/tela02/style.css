@@ -1,0 +1,165 @@
+.background2 {
+  position: relative;
+  background-image: url("./images/fotodefundo2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.imagem-texto {
+  height: 100%;
+  grid-template-columns: 300px 500px;
+}
+
+.imagemTela2 {
+  max-height: 665px;
+  width: auto;
+  height: auto;
+}
+
+.textoVerde {
+  font-family: picpay-normal;
+  font-size: 20px;
+  color: #223324;
+  text-align: right;
+  line-height: 1.3;
+}
+
+.btnSeta {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-family: picpay-bold;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.btnSeta:hover {
+  transform: scale(1.05)
+}
+
+.container-text {
+  display: flex;
+  height: 30%;
+}
+
+.container-02 {
+  height: 100%;
+}
+
+.container-img {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 2;
+}
+
+.alinhamento-button-02 {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 60px;
+}
+
+@media (max-height: 660px) {
+  .container-02 {
+    transform: scale(0.85);
+  }
+
+  .container-text {
+    height: 60%;
+  }
+}
+
+@media (max-height: 550px) {
+  .container-02 {
+    transform: scale(0.75) translateY(-120px);
+  }
+}
+
+@media (max-width: 700px) {
+  .container-02 {
+    transform: scale(0.75) translateY(0px);
+  }
+
+  .container-text {
+    height: 50%;
+  }
+
+  .alinhamento-button-02 {
+    margin-left: -150px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container-02 {
+    transform: scale(0.75) translateX(-50px);
+  }
+
+  .imagem-texto {
+    grid-template-columns: 240px 500px;
+  }
+
+  .alinhamento-button-02 {
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .container-02 {
+    transform: scale(0.65) translateX(-105px);
+  }
+}
+
+@media (max-width: 490px) {
+  .container-02 {
+    transform: scale(0.55) translateX(-190px);
+  }
+}
+
+@media (max-width: 435px) {
+  .imagem-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    width: 450px;
+  }
+
+  .container-02 {
+    transform: scale(0.65) translateX(30px) translateY(-180px);
+  }
+
+  .alinhamento-button-02 {
+    margin-left: 100px;
+    width: 400px
+  }
+
+  .container-text {
+    width: 360px !important;
+  }
+
+  .container-img {
+    transform: scale(0.9);
+  }
+
+  .textoVerde {
+    text-align: center;
+    transform: translateX(-60px)
+  }
+
+  .imagemTela2 {
+    max-height: 380px;
+    transform: translateX(-10px);
+  }
+}

@@ -1,0 +1,79 @@
+.background5 {
+  background-image: url("./images/fotodefundo5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.div8002 {
+  width: 800px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transform: scale(0.95);
+}
+
+.imagemTela8 {
+  max-height: 1000px;
+  width: auto;
+  height: auto;
+  padding: 20px;
+}
+
+.caixa {
+  display: flex;
+  justify-content: center;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.container-text {
+  width: 720px;
+}
+
+@media (max-height: 660px) {
+  .container-05 {
+    transform: scale(0.8);
+  }
+
+  .p-20,
+  .imagemTela8 {
+    padding: 10px;
+  }
+}
+
+@media (max-height: 550px) {
+  .container-05 {
+    transform: scale(0.65);
+  }
+
+  .p-20,
+  .imagemTela5 {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 435px) {
+  .container-05 {
+    transform: scale(0.65);
+    gap: 100px;
+    width: 300px
+  }
+
+  .imagemTela5 {
+    max-height: 380px;
+  }
+
+  .caixa {
+    width: 620px
+  }
+
+}

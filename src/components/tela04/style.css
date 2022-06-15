@@ -1,0 +1,52 @@
+.background4 {
+  background-image: url("./images/fotodefundo4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.shapePreto {
+  height: 100%;
+  width: 800px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.container-04 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.textoBranco {
+  width: 500px;
+  font-family: picpay-normal;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+@media (max-height: 660px) {
+  .container-04 {
+    transform: scale(0.85);
+    gap: 50px;
+  }
+}
+
+@media (max-height: 550px) {
+  .container-04 {
+    transform: scale(0.75) translateY(-90px);
+  }
+}
+
+@media (max-width: 435px) {
+  .container-04 {
+    transform: scale(0.65);
+    gap: 100px;
+  }
+
+  .shapePreto {
+    width: 330px;
+  }
+}

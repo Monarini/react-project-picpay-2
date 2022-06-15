@@ -1,0 +1,143 @@
+.background3 {
+  position: relative;
+  background-image: url("./images/fotodefundo3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.texto-imagem {
+  height: 100%;
+  grid-template-columns: 630px 300px;
+  gap: 10px;
+}
+
+.textoVerde {
+  font-family: picpay-normal;
+  font-size: 20px;
+  color: #223324;
+  width: 500px;
+}
+
+.botao {
+  top: 793px;
+  left: 460px;
+  width: 200px;
+  height: 68px;
+  background: #426dfb 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 5px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: picpay-black;
+  font-size: 18px;
+}
+
+.botao:hover {
+  background: #1246ee 0% 0% no-repeat padding-box;
+  cursor: pointer;
+}
+
+.botao:active {
+  background: #333333 0% 0% no-repeat padding-box;
+  cursor: pointer;
+}
+
+.container-text-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  z-index: 2;
+  gap: 20px;
+}
+
+.text-container {
+  max-width: 500px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 200px;
+}
+
+.img {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-row-end: 3;
+  grid-column-end: 2;
+}
+
+.container-03 {
+  height: 100%;
+}
+
+.alinhano-button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 130px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+@media (max-height: 660px) {
+  .container-03 {
+    transform: scale(0.85);
+  }
+
+  .buttons-container {
+    flex-direction: row;
+  }
+}
+
+@media (max-height: 550px) {
+  .container-03 {
+    transform: scale(0.75) translateY(-90px);
+  }
+
+  .alinhano-button {
+    transform: translateY(-45px);
+  }
+
+  .img {
+    transform: translateY(-46px)
+  }
+}
+
+@media(max-width:700px) {
+  .container-03 {
+    transform: scale(0.75);
+  }
+}
+
+@media (max-width: 435px) {
+  .container-03 {
+    transform: scale(0.60) translate(-30px, -340px);
+  }
+
+  .texto-imagem {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px
+  }
+
+
+  .buttons-container {
+    flex-direction: row
+  }
+
+  .alinhano-button {
+    margin: 0;
+    justify-content: center;
+    transform: translateY(20px)
+  }
+}

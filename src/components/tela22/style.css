@@ -1,0 +1,12 @@
+.background22 {
+  background-image: url("./images/fotodefundo22.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.titulosBranco {
+  font-family: picpay-black;
+  font-size: 50px;
+  color: #ffffff;
+}

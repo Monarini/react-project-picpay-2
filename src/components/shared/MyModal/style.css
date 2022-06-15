@@ -1,0 +1,36 @@
+.ReactModal__Content {
+  background-color: #426DFF !important;
+  padding: 40px !important;
+  border-color: #426DFF !important;
+}
+
+.title {
+  font-family: picpay-black;
+  font-size: 25px;
+  color: #FFF;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between
+}
+
+.btn-close {
+  height: 30px;
+  background: transparent;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px
+}
+
+.modal-content {
+  color: #FFF;
+  font-family: picpay-normal;
+  font-size: 20px;
+}
+
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  z-index: 10;
+}

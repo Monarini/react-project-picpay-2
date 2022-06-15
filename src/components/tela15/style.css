@@ -1,0 +1,4 @@
+.quatroColunas {
+  grid-template-columns: repeat(4, 0fr);
+  gap: 40px;
+}

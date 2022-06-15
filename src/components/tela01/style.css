@@ -1,0 +1,83 @@
+.grid {
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.background {
+  background-image: url("./images/fotodefundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.titulos {
+  font-family: picpay-black;
+  font-size: 50px;
+  color: #11c770;
+}
+
+.palavrasCenter {
+  text-align: center;
+}
+
+.botaoAvancar {
+  top: 793px;
+  left: 460px;
+  width: 150px;
+  height: 30px;
+  background: #426dfb 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: picpay-black;
+  font-size: 18px;
+}
+
+.botaoAvancar:hover {
+  background: #1246ee 0% 0% no-repeat padding-box;
+  cursor: pointer;
+}
+
+.visible {
+  z-index: 2;
+}
+
+@media (max-height: 660px) {
+  .container {
+    transform: scale(0.85);
+  }
+}
+
+@media (max-height: 550px) {
+  .container {
+    transform: scale(0.75);
+  }
+}
+
+@media(max-width:700px) {
+  .container {
+    transform: scale(0.75) translateY(-40px);
+    gap: 100px;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+}
+
+@media(max-width:400px) {
+  .container {
+    transform: scale(0.65);
+  }
+}

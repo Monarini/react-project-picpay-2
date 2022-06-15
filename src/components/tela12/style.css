@@ -1,0 +1,12 @@
+.background12 {
+  background-image: url("./images/fotodefundo12.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.shapePreto {
+  height: 100%;
+  width: 800px;
+  background: rgba(0, 0, 0, 0.7);
+}
